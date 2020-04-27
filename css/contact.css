@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap");
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #0e0e0e;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+}
+
+header {
+  height: 120px;
+}
+
+main {
+  margin: 0px 40px 0px 40px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.navbar ul {
+  padding: 0px;
+}
+
+.navbar li {
+  list-style: none;
+  display: inline;
+  padding: 1em;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.navbar {
+  text-align: center;
+}
+
+.contact {
+  color: #68b3ad;
+}
+
+.nav-logo {
+  width: 150px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.container p {
+  margin-bottom: 40px;
+  margin-top: 0;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 0;
+  border-bottom: 2px solid white;
+  color: white;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  background: transparent;
+}
+
+::-webkit-input-placeholder {
+  color: white;
+}
+
+::-moz-input-placeholder {
+  color: white;
+}
+
+::-ms-input-placeholder {
+  color: white;
+}
+
+input[type="submit"] {
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+  background: #68b3ad;
+  font-size: 14px;
+}
+
+.copyright {
+  text-align: center;
+  padding-top: 120px;
+}
