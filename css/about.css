@@ -61,4 +61,17 @@ main {
 .img-content ul {
   display: inline-block;
   vertical-align: top;
+  padding-top: 40px;
+}
+
+.info-content {
+  margin-top: 40px;
+}
+
+.copyright {
+  text-align: center;
+}
+
+footer {
+  margin-top: 260px;
 }
