@@ -53,6 +53,10 @@ main {
   color: #68b3ad;
 }
 
+.content {
+  margin-top: 40px;
+}
+
 .content h2 {
   color: #68b3ad;
 }
@@ -74,5 +78,5 @@ main {
 }
 
 footer {
-  margin-top: 200px;
+  margin-top: 190px;
 }
