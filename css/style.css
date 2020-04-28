@@ -58,7 +58,7 @@ h1 {
 }
 
 .txt-content p {
-  margin: 0px 0px 40px 0px;
+  margin-bottom: 40px;
 }
 
 .workbox {
@@ -67,7 +67,7 @@ h1 {
 
 .workbox img {
   width: 100%;
-  border: 1px solid lightgray;
+  border: 2px solid #68b3ad;
 }
 
 .coming-soon-text {
@@ -85,4 +85,59 @@ footer {
 
 .copyright p {
   margin: 0;
+}
+
+/*-----------web browser-----------*/
+
+@media only screen and (min-width: 875px) {
+  header {
+    height: 100px;
+  }
+
+  main {
+    margin: 0px 150px 0px 150px;
+  }
+
+  h1 {
+    font-size: 72px;
+    line-height: 1em;
+  }
+
+  .nav-logo {
+    width: 250px;
+    margin: 0;
+  }
+
+  .nav-logo img {
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+
+  .navbar {
+    float: right;
+  }
+
+  .navbar ul {
+    margin: 0;
+    margin-right: 40px;
+  }
+
+  .txt-content {
+    max-width: 40%;
+    margin-bottom: 80px;
+  }
+
+  .workbox {
+    display: inline-block;
+    margin: 15px;
+    width: 40%;
+  }
+
+  .work-content {
+    text-align: center;
+  }
+
+  .coming-soon-text {
+    text-align: center;
+  }
 }
