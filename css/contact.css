@@ -106,6 +106,7 @@ textarea:focus {
 
 .form-error {
   display: none;
+  color: red;
 }
 
 .copyright {
