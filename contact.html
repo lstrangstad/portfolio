@@ -11,14 +11,14 @@
 <body>
   <header>
     <div class="nav-logo">
-      <img src="./assets/img/linus-logo.svg" alt="logo" />
+      <img id="logo" src="./assets/img/linus-logo.svg" alt="logo" />
     </div>
     <nav class="navbar">
       <ul>
-        <li><a class="home" href="./index.html">Home</a></li>
-        <li><a class="about" href="./about.html">About</a></li>
-        <li><a class="cv" href="./cv.html">CV</a></li>
-        <li><a class="contact" href="#">Contact</a></li>
+        <li class="navbaritem"><a class="home" href="./index.html">Home</a></li>
+        <li class="navbaritem"><a class="about" href="./about.html">About</a></li>
+        <li class="navbaritem"><a class="cv" href="./cv.html">CV</a></li>
+        <li class="navbaritem"><a class="contact" href="#">Contact</a></li>
       </ul>
     </nav>
   </header>
@@ -28,12 +28,15 @@
       <p>If you want to get in touch, use the contact form below!</p>
       <div class="form-content">
         <form action="#">
+          <div class="formError" id="fullNameError">Please enter your full name</div>
           <input type="text" id="fullname" name="fullname" placeholder="Full name">
+          <div class="formError" id="emailError">Please enter your email address</div>
           <input type="text" id="email" name="email" placeholder="Email">
+          <div class="formError" id="subjectError">The subject must be at least 3 characters.</div>
           <input type="text" id="subject" name="subject" placeholder="Subject">
+          <div class="formError" id="messageError">The message must be at least 10 characters.</div>
           <textarea id="message" name="message" placeholder="Message" style="height: 100px;"></textarea>
-          <input type="submit" value="Submit">
-
+          <input type="submit" value="Send">
         </form>
       </div>
     </section>
