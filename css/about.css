@@ -66,6 +66,7 @@ main {
   display: inline-block;
   vertical-align: top;
   padding-top: 40px;
+  font-size: 14px;
 }
 
 .info-content {
@@ -77,5 +78,5 @@ main {
 }
 
 footer {
-  margin-top: 270px;
+  margin-top: 260px;
 }
