@@ -104,6 +104,10 @@ textarea:focus {
   outline: none;
 }
 
+.form-error {
+  display: none;
+}
+
 .copyright {
   text-align: center;
 }
