@@ -86,3 +86,69 @@ footer {
   background-color: #0e0e0e;
   padding: 10px;
 }
+
+@media only screen and (min-width: 875px) {
+  body {
+    font-size: 16px;
+  }
+
+  header {
+    height: 100px;
+  }
+
+  main {
+    margin: 0px 150px 0px 150px;
+  }
+
+  h1 {
+    font-size: 72px;
+    line-height: 1em;
+  }
+
+  .nav-logo {
+    width: 200px;
+    margin: 0;
+  }
+
+  #logo {
+    margin-top: 20px;
+    margin-left: 40px;
+  }
+
+  .navbar {
+    float: right;
+  }
+
+  .navbar ul {
+    margin: 0;
+    margin-right: 40px;
+  }
+
+  .horizontal {
+    display: none;
+  }
+
+  .container {
+    display: inline-block;
+    max-width: 45%;
+    vertical-align: top;
+  }
+
+  .content h2 {
+    font-size: 22px;
+  }
+
+  .vertical {
+    display: block;
+  }
+
+  .img {
+    float: right;
+    width: 350px;
+    margin-top: 60px;
+  }
+
+  footer {
+    margin-top: 360px;
+  }
+}

@@ -87,3 +87,58 @@ footer {
   background-color: #0e0e0e;
   padding: 10px;
 }
+
+/*-----------web browser-----------*/
+
+@media only screen and (min-width: 875px) {
+  header {
+    height: 100px;
+  }
+
+  main {
+    margin: 0px 150px 0px 150px;
+  }
+
+  h1 {
+    font-size: 72px;
+  }
+
+  .nav-logo {
+    width: 200px;
+    margin: 0;
+  }
+
+  #logo {
+    margin-top: 20px;
+    margin-left: 40px;
+  }
+
+  .navbar {
+    float: right;
+  }
+
+  .navbar ul {
+    margin: 0;
+    margin-right: 40px;
+  }
+
+  .img-content {
+    display: inline-block;
+    width: 45%;
+  }
+
+  .img-content img {
+    width: 200px;
+  }
+
+  .info-content {
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+    margin-left: 80px;
+  }
+
+  footer {
+    margin-top: 110px;
+  }
+}
