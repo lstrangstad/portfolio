@@ -45,7 +45,7 @@ h1 {
 }
 
 .home {
-  color: #68b3ad;
+  color: #6db6b0;
 }
 
 .nav-logo {
@@ -124,7 +124,7 @@ footer {
   }
 
   .navbaritem:hover {
-    border-bottom: 2px solid #68b3ad;
+    border-bottom: 2px solid #6db6b0;
   }
 
   .txt-content {
