@@ -68,15 +68,19 @@ main {
 }
 
 .img-content ul {
-  display: inline-block;
-  vertical-align: top;
-  padding-top: 40px;
   font-size: 14px;
 }
 
 .info-content {
   margin-top: 40px;
   border-bottom: 2px solid white;
+  max-width: 400px;
+}
+
+#contact-link {
+  font-weight: bold;
+  font-size: 14px;
+  color: #68b3ad;
 }
 
 .copyright {
@@ -84,7 +88,7 @@ main {
 }
 
 footer {
-  margin-top: 250px;
+  margin-top: 52px;
   background-color: #0e0e0e;
   padding: 10px;
 }
@@ -136,10 +140,9 @@ footer {
     display: inline-block;
     width: 40%;
     vertical-align: top;
-    margin-left: 80px;
   }
 
   footer {
-    margin-top: 110px;
+    margin-top: 20px;
   }
 }

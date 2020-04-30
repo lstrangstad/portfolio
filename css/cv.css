@@ -69,12 +69,8 @@ main {
   width: 100%;
 }
 
-.horizontal {
+.horizontal-img {
   margin-top: 40px;
-}
-
-.vertical {
-  display: none;
 }
 
 .copyright {
@@ -82,12 +78,12 @@ main {
 }
 
 footer {
-  margin-top: 180px;
+  margin-top: 25px;
   background-color: #0e0e0e;
   padding: 10px;
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 875px) {
   body {
     font-size: 14px;
   }
@@ -124,10 +120,6 @@ footer {
     margin-right: 40px;
   }
 
-  .horizontal {
-    display: none;
-  }
-
   .container {
     display: inline-block;
     max-width: 45%;
@@ -138,17 +130,14 @@ footer {
     font-size: 20px;
   }
 
-  .vertical {
-    display: block;
-  }
-
   .img {
-    float: right;
-    width: 350px;
-    margin-top: 60px;
+    display: inline-block;
+    vertical-align: bottom;
+    max-width: 45%;
+    margin-left: 13em;
   }
 
   footer {
-    margin-top: 360px;
+    margin-top: 195px;
   }
 }

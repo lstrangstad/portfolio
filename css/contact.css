@@ -176,4 +176,8 @@ footer {
   .form-error {
     text-align: inherit;
   }
+
+  footer {
+    margin-top: 75px;
+  }
 }
