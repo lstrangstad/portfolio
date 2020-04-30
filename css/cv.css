@@ -61,6 +61,20 @@ main {
   margin-top: 40px;
 }
 
+#school {
+  color: lightgrey;
+  font-weight: bold;
+}
+
+#class,
+#year {
+  margin-left: 30px;
+}
+
+.skills {
+  margin-left: 15px;
+}
+
 .content h2 {
   color: #68b3ad;
 }
@@ -83,7 +97,7 @@ footer {
   padding: 10px;
 }
 
-@media only screen and (min-width: 875px) {
+@media only screen and (min-width: 850px) {
   body {
     font-size: 14px;
   }
