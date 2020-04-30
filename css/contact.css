@@ -118,3 +118,62 @@ footer {
   background-color: #0e0e0e;
   padding: 10px;
 }
+
+@media only screen and (min-width: 800px) {
+  body {
+    font-size: 14px;
+  }
+
+  header {
+    height: 100px;
+  }
+
+  main {
+    margin: 0px 150px 0px 150px;
+  }
+
+  h1 {
+    font-size: 72px;
+    line-height: 1em;
+  }
+
+  .nav-logo {
+    width: 200px;
+    margin: 0;
+  }
+
+  #logo {
+    margin-top: 20px;
+    margin-left: 40px;
+  }
+
+  .navbar {
+    float: right;
+  }
+
+  .navbar ul {
+    margin: 0;
+    margin-right: 40px;
+  }
+
+  input[type="text"],
+  textarea {
+    width: 70%;
+  }
+
+  input[type="submit"] {
+    width: 70%;
+  }
+
+  .form-content {
+    text-align: center;
+  }
+
+  .left-form {
+    margin: ;
+  }
+
+  .form-error {
+    text-align: inherit;
+  }
+}

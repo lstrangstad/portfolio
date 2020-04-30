@@ -87,9 +87,9 @@ footer {
   padding: 10px;
 }
 
-@media only screen and (min-width: 875px) {
+@media only screen and (min-width: 800px) {
   body {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   header {
@@ -135,7 +135,7 @@ footer {
   }
 
   .content h2 {
-    font-size: 22px;
+    font-size: 20px;
   }
 
   .vertical {
