@@ -131,6 +131,10 @@ footer {
     margin-right: 40px;
   }
 
+  .navbaritem:hover {
+    border-bottom: 2px solid #68b3ad;
+  }
+
   .img-content {
     display: inline-block;
     width: 45%;

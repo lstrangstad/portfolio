@@ -97,7 +97,7 @@ footer {
   padding: 10px;
 }
 
-@media only screen and (min-width: 850px) {
+@media only screen and (min-width: 875px) {
   body {
     font-size: 14px;
   }
@@ -132,6 +132,10 @@ footer {
   .navbar ul {
     margin: 0;
     margin-right: 40px;
+  }
+
+  .navbaritem:hover {
+    border-bottom: 2px solid #68b3ad;
   }
 
   .container {

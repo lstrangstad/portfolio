@@ -123,6 +123,10 @@ footer {
     margin-right: 40px;
   }
 
+  .navbaritem:hover {
+    border-bottom: 2px solid #68b3ad;
+  }
+
   .txt-content {
     max-width: 40%;
     margin-bottom: 80px;
