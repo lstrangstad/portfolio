@@ -76,6 +76,7 @@ main {
 
 .info-content {
   margin-top: 40px;
+  border-bottom: 2px solid white;
 }
 
 .copyright {
