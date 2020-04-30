@@ -57,6 +57,11 @@ h1 {
   margin-top: 10px;
 }
 
+.txt-container {
+  border-bottom: 2px solid white;
+  margin-bottom: 40px;
+}
+
 .txt-content p {
   margin-bottom: 40px;
 }
