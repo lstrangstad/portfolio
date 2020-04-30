@@ -1,4 +1,4 @@
-const formOutput = document.querySelector("#contactForm");
+const formOutput = document.querySelector("#contactform");
 
 formOutput.addEventListener("submit", formValidator);
 function formValidator(event) {
