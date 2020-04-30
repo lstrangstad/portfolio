@@ -158,19 +158,15 @@ footer {
 
   input[type="text"],
   textarea {
-    width: 70%;
+    max-width: 60%;
   }
 
   input[type="submit"] {
-    width: 70%;
+    max-width: 40%;
   }
 
   .form-content {
     text-align: center;
-  }
-
-  .left-form {
-    margin: ;
   }
 
   .form-error {

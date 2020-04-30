@@ -134,6 +134,15 @@ footer {
     width: 40%;
   }
 
+  .workbox-img {
+    filter: brightness(80%);
+  }
+
+  .workbox-img:hover {
+    filter: brightness(100%);
+    transform: scale(1.05);
+  }
+
   .work-content {
     text-align: center;
   }
