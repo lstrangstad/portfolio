@@ -185,6 +185,10 @@ footer {
     text-align: inherit;
   }
 
+  .social-container img {
+    width: 45px;
+  }
+
   footer {
     margin-top: 30px;
   }
