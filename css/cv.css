@@ -75,6 +75,10 @@ main {
   margin-left: 15px;
 }
 
+.education {
+  border-bottom: 2px solid white;
+}
+
 .content h2 {
   color: #6db6b0;
 }
