@@ -79,12 +79,7 @@ main {
 
 #contact-link {
   font-weight: bold;
-  font-size: 12px;
   color: #68b3ad;
-}
-
-#contact-link:hover {
-  font-size: 14px;
 }
 
 .copyright {
@@ -150,6 +145,10 @@ footer {
     display: inline-block;
     width: 40%;
     vertical-align: top;
+  }
+
+  #contact-link:hover {
+    font-size: 15px;
   }
 
   footer {
