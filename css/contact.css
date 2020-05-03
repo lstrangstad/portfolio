@@ -111,12 +111,21 @@ textarea:focus {
   color: red;
 }
 
+.social-container img {
+  width: 30px;
+  margin: 40px 20px 0px 20px;
+}
+
+.social-container {
+  text-align: center;
+}
+
 .copyright {
   text-align: center;
 }
 
 footer {
-  margin-top: 110px;
+  margin-top: 40px;
   background-color: #0e0e0e;
   padding: 10px;
 }
@@ -180,6 +189,6 @@ footer {
   }
 
   footer {
-    margin-top: 75px;
+    margin-top: 30px;
   }
 }
