@@ -113,7 +113,7 @@ textarea:focus {
 
 .social-container img {
   width: 30px;
-  margin: 40px 20px 0px 20px;
+  margin: 40px 30px 0px 30px;
 }
 
 .social-container {
@@ -136,7 +136,9 @@ footer {
   }
 
   header {
-    height: 100px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
   }
 
   main {
@@ -145,7 +147,6 @@ footer {
 
   h1 {
     font-size: 72px;
-    line-height: 1em;
   }
 
   .nav-logo {
@@ -159,11 +160,7 @@ footer {
   }
 
   .navbar {
-    float: right;
-  }
-
-  .navbar ul {
-    margin: 0;
+    margin-top: 20px;
     margin-right: 40px;
   }
 

@@ -107,7 +107,9 @@ footer {
   }
 
   header {
-    height: 100px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
   }
 
   main {
@@ -116,7 +118,6 @@ footer {
 
   h1 {
     font-size: 72px;
-    line-height: 1em;
   }
 
   .nav-logo {
@@ -130,11 +131,7 @@ footer {
   }
 
   .navbar {
-    float: right;
-  }
-
-  .navbar ul {
-    margin: 0;
+    margin-top: 20px;
     margin-right: 40px;
   }
 
@@ -160,6 +157,6 @@ footer {
   }
 
   footer {
-    margin-top: 195px;
+    margin-top: 180px;
   }
 }
